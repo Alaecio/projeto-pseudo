@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    border: 3px solid rgb(0, 174, 255); 
+    color: blue;
+
+}
+input::placeholder{
+    color: green;
+}
+
+span{
+    color: blue;
+}
+
+p{
+    color: rgb(255, 0, 0);
+    block-size: 20px;
+}
+
+p::first-line{
+    color: blue;
+}
+
+a{
+    color: blue;
+}
+ 
+a::after{
+    content: "🤖";
+}
